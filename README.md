@@ -20,9 +20,15 @@ with development settings, and then with personal settings.
 
 # Usage
 
+```
+import develSettings from "meteor-devel-settings";
+develSettings(Meteor, Assets);
+```
+
 1. Meteor is being started as usual: "meteor --settings /private/settings.json"
-2. During the meteor-devel-settings import, module tries to open
-/private/settings-devel.json and then /private/settings-personal.json
+2. Import meteor-devel-settings
+2. develSettings(), upon called, tries to open /private/settings-devel.json and
+then /private/settings-personal.json
 3. If these files found in /private, their contents is appended to the default
 settings, overwriting them.
 

@@ -1,6 +1,6 @@
 {
   "name": "meteor-devel-settings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Meteor settings.json override with devel and personal levels",
   "main": "lib/devel-settings.js",
   "scripts": {
