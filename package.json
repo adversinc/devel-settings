@@ -1,6 +1,6 @@
 {
   "name": "meteor-devel-settings",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Meteor settings.json override with devel and personal levels",
   "main": "lib/devel-settings.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/adversinc/devel-settings#readme",
   "dependencies": {
     "deep-assign": "^2.0.0",
-    "strip-json-comments": "^5.0.1"
+    "strip-json-comments": "^3.1.1"
   },
   "devDependencies": {
     "@types/deep-assign": "^0.1.1",

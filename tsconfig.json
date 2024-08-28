@@ -1,10 +1,9 @@
 {
 	"compilerOptions": {
-		"module": "commonjs",
+		"module": "CommonJS",
 		"esModuleInterop": true,
 		"target": "ES2023",
 
-		"moduleResolution": "Node",
 		"sourceMap": true,
 		"outDir": "lib",
 		"rootDir": "src/",
